@@ -1,0 +1,8 @@
+# Ignore Python environment and junk files
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.ipynb_checkpoints/
+.env
+venv39/
