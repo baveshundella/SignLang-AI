@@ -104,23 +104,7 @@ python src/predict.py
 
 ---
 
-## 📸 Example Screenshots & Real-Time Demo
 
-Below are example screenshots from the working project. The OpenCV window provides **live, animated feedback** as you sign different letters:
-
-![Real-time prediction example: Q](amer_sign2.png)
-*The system predicts the letter 'Q' as you show the corresponding sign in the ROI box.*
-
-![Real-time prediction example: T](amer_sign3.png)
-*The system predicts the letter 'T' as you show the corresponding sign in the ROI box.*
-
-- The left side of the window shows your webcam feed with a blue rectangle marking the region of interest (ROI) for your hand.
-- The predicted letter (e.g., "Prediction: Q") is displayed in large green text at the top left.
-- As you move your hand and change the sign, the prediction updates instantly, providing a real-time, animated experience.
-
-> **Tip:** You can add your own screenshots by saving images from the OpenCV window and placing them in the project folder. Update the README to include your images if desired.
-
----
 
 ## 🛠️ Error Handling
 - If the model file is missing, you will see an error: "Model file not found..."
